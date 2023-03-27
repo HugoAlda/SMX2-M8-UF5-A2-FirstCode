@@ -9,7 +9,7 @@ header {
   background-size: scale;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/images/header_background.jpeg);
+  background-image: url(../img/header.jpg);
   background-size: cover;
   background-position: center;
   color: black;
