@@ -13,94 +13,93 @@ header {
   text-align: center;
   justify-items: center;
   flex-direction: column;
-  }
 }
+
 
 /*MEDIA QUERY*/
 
 @media screen and (max-width: 600px) {
-    body {
-      margin-right: 0;
-    }
-    
-    .row1, .col1, .col2, .col3, .col4, .col5, .col6 {
-      width: 100%;
-    }
-    
-    .row1 {
-      height: auto;
-    }
-    
-    .row2, .row3, .row4 {
-      flex-direction: column;
-    }
-    
-    .section1, .section2, .section3, .section4, .section5 {
-      height: auto;
-    }
-    
-    .texto1 {
-      font-size: 40px;
-    }
-    
-    .texto2 {
-      font-size: 30px;
-    }
-    
-    .texto3, .texto5, .texto7 {
-      font-size: 20px;
-    }
-    
-    .texto4 {
-      font-size: 30px;
-    }
-    
-    .texto6 {
-      font-size: 25px;
-    }
+  body {
+    margin-right: 0;
   }
+    
+  .row1, .col1, .col2, .col3, .col4, .col5, .col6 {
+    width: 100%;
+  }
+    
+  .row1 {
+    height: auto;
+  }
+    
+  .row2, .row3, .row4 {
+    flex-direction: column;
+  }
+    
+  .section1, .section2, .section3, .section4, .section5 {
+    height: auto;
+  }
+    
+  .texto1 {
+    font-size: 40px;
+  }
+    
+  .texto2 {
+    font-size: 30px;
+  }
+    
+  .texto3, .texto5, .texto7 {
+    font-size: 20px;
+  }
+    
+  .texto4 {
+    font-size: 30px;
+  }
+    
+  .texto6 {
+    font-size: 25px;
+  }
+}
   
 @media screen and (min-width: 601px) {
-    body {
-      margin-right: 15px;
-    }
-    
-    .row1 {
-      height: 170px;
-    }
-    
-    .col1, .col2 {
-      width: 50%;
-    }
-    
-    .col3, .col6 {
-      width: 50%;
-      height: 200px;
-    }
-    
-    .col4, .col5 {
-      width: 50%;
-      height: 170px;
-    }
-    
-    .texto1 {
-      font-size: 90px;
-    }
-    
-    .texto2 {
-      font-size: 47px;
-    }
-    
-    .texto3, .texto5, .texto7 {
-      font-size: 25px;
-    }
-    
-    .texto4 {
-      font-size: 47px;
-    }
-    
-    .texto6 {
-      font-size: 37px;
-    }
+  body {
+    margin-right: 15px;
   }
-  
+    
+  .row1 {
+    height: 170px;
+  }
+    
+  .col1, .col2 {
+    width: 50%;
+  }
+    
+  .col3, .col6 {
+    width: 50%;
+    height: 200px;
+  }
+    
+  .col4, .col5 {
+    width: 50%;
+    height: 170px;
+  }
+    
+  .texto1 {
+    font-size: 90px;
+  }
+    
+  .texto2 {
+    font-size: 47px;
+  }
+   
+  .texto3, .texto5, .texto7 {
+    font-size: 25px;
+  }
+    
+  .texto4 {
+    font-size: 47px;
+  }
+    
+  .texto6 {
+    font-size: 37px;
+  }
+}  
