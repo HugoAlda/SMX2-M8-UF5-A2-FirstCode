@@ -31,6 +31,12 @@ header {
   flex-direction: column;
 }
 
+.fecha {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
 /* MEDIA QUERY
 
 @media screen and (max-width: 600px) {
