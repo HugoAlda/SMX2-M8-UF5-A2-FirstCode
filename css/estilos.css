@@ -52,7 +52,15 @@ header {
 }
 
 .img_gatos {
+  float: left;
+  clear: both;
   display: flex;
+  flex-direction: row;
+}
+
+.img_gatos_33 {
+  width: 33.33%;
+  float: left;
 }
 
 /* MEDIA QUERY
