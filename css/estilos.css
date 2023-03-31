@@ -33,8 +33,13 @@ header {
 
 .fecha {
   text-align: center;
+  display: flex;
   background-color: black;
   color: white;
+  text-align: center;
+  justify-items: center;
+  flex-direction: column;
+  font-size: 22px;
 }
 
 /* MEDIA QUERY
