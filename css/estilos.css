@@ -19,6 +19,18 @@ header {
   text-align: center;
 }
 
+.feed {
+  text-align: center;
+  display: flex;
+  background-color: rgb(9, 113, 113);
+  flex-wrap: wrap;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
 /* MEDIA QUERY
 
 @media screen and (max-width: 600px) {
