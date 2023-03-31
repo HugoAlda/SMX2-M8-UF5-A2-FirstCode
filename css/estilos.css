@@ -42,6 +42,15 @@ header {
   font-size: 22px;
 }
 
+.sobre {
+  display: flex;
+}
+
+.ayuda {
+  display: flex;
+  background-color: gray;
+}
+
 /* MEDIA QUERY
 
 @media screen and (max-width: 600px) {
