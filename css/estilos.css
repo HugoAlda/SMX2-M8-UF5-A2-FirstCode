@@ -15,8 +15,11 @@ header {
   flex-direction: column;
 }
 
+.texto1 {
+  text-align: center;
+}
 
-/*MEDIA QUERY*/
+/* MEDIA QUERY
 
 @media screen and (max-width: 600px) {
   body {
@@ -103,3 +106,4 @@ header {
     font-size: 37px;
   }
 }  
+*/
